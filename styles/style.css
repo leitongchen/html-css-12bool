@@ -17,3 +17,14 @@
 
     text-align: center;
 }
+
+
+.container>.row>[class*="col-"]>.row {
+    padding: 10px;
+}
+
+.container>.row>[class*="col-"]>.row>[class*="col-"] {
+    padding: 100px 0;
+    border: 1px solid white;
+    background-color: rgb(214, 100, 134);
+}

@@ -11,20 +11,23 @@
 }
 
 .container>.row>div {
-    padding: 100px 0;
+    /* padding: 100px 0; */
+    height: 250px;
     background-color: rgb(241, 185, 213);
     border: 1px solid;
 
     text-align: center;
+    line-height: 250px;
 }
 
 
 .container>.row>[class*="col-"]>.row {
     padding: 10px;
+    height: 100%;
 }
 
 .container>.row>[class*="col-"]>.row>[class*="col-"] {
-    padding: 100px 0;
+    height: 100%;
     border: 1px solid white;
     background-color: rgb(214, 100, 134);
 }

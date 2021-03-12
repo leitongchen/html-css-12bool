@@ -2,26 +2,28 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
 .container {
-    background-color: burlywood;
+    padding: 10px;
 }
 
 .row {
-    margin: -10px;
+    margin: 0 -5px;
 }
 
 .card {
-    padding: 10px;
     height: 250px;
     background-color: rgb(241, 185, 213);
+
+    padding: 0 5px;
+    margin: 5px 0;
 
     text-align: center;
 }
 
 [class*="col-"] {
-    padding: 10px;
     border: 1px solid;
 
 }
@@ -29,9 +31,15 @@
 .row .row .card {
     /* height: 100%; */
     background-color: rgb(214, 100, 134);
-    border: 1px solid white;
-
 }
 
-.row .row [class*="col-"] {
+h1 {
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

@@ -4,3 +4,16 @@
     padding: 0;
 }
 
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container>.row>div {
+    padding: 100px 0;
+    background-color: rgb(241, 185, 213);
+    border: 1px solid;
+
+    text-align: center;
+}
